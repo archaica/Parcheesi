@@ -7,14 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B52E5E6B24B2E0A3005CC201 /* PieceFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52E5E6A24B2E0A3005CC201 /* PieceFactory.swift */; };
+		B52E5E6D24B2E0B4005CC201 /* MoveFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52E5E6C24B2E0B4005CC201 /* MoveFactory.swift */; };
+		B52E5E6F24B2E1D2005CC201 /* MovementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52E5E6E24B2E1D2005CC201 /* MovementTests.swift */; };
+		B5541AC924AFF78A00372FA3 /* Roll.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5541AC824AFF78A00372FA3 /* Roll.swift */; };
+		B5541ACC24AFF7ED00372FA3 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5541ACB24AFF7ED00372FA3 /* Location.swift */; };
+		B5541ACE24AFF80F00372FA3 /* Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5541ACD24AFF80F00372FA3 /* Move.swift */; };
+		B55E3B3524AD77A10083DC02 /* RollTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55E3B3424AD77A10083DC02 /* RollTests.swift */; };
 		B5709A1F24A4500C006DCE2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5709A1E24A4500C006DCE2F /* AppDelegate.swift */; };
 		B5709A2124A4500C006DCE2F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5709A2024A4500C006DCE2F /* SceneDelegate.swift */; };
 		B5709A2324A4500C006DCE2F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5709A2224A4500C006DCE2F /* ContentView.swift */; };
 		B5709A2524A4500F006DCE2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5709A2424A4500F006DCE2F /* Assets.xcassets */; };
 		B5709A2824A4500F006DCE2F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5709A2724A4500F006DCE2F /* Preview Assets.xcassets */; };
 		B5709A2B24A4500F006DCE2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5709A2924A4500F006DCE2F /* LaunchScreen.storyboard */; };
-		B5709A3624A45010006DCE2F /* ParcheesiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5709A3524A45010006DCE2F /* ParcheesiTests.swift */; };
 		B5709A4124A45010006DCE2F /* ParcheesiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5709A4024A45010006DCE2F /* ParcheesiUITests.swift */; };
+		B5709A5124A4503A006DCE2F /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5709A5024A4503A006DCE2F /* BoardView.swift */; };
+		B5709A5324A45211006DCE2F /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5709A5224A45211006DCE2F /* Player.swift */; };
+		B5709A5524A45222006DCE2F /* Piece.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5709A5424A45222006DCE2F /* Piece.swift */; };
+		B5709A5B24A45270006DCE2F /* Space.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5709A5A24A45270006DCE2F /* Space.swift */; };
+		B5709A5D24A452A9006DCE2F /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5709A5C24A452A9006DCE2F /* Track.swift */; };
+		B5709A6124A4536E006DCE2F /* TrackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5709A6024A4536E006DCE2F /* TrackTests.swift */; };
+		B5774A0724A5AF74005C6C89 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5774A0624A5AF74005C6C89 /* Game.swift */; };
+		B5774A0B24A5B5A0005C6C89 /* GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5774A0A24A5B5A0005C6C89 /* GameTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +49,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B52E5E6A24B2E0A3005CC201 /* PieceFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieceFactory.swift; sourceTree = "<group>"; };
+		B52E5E6C24B2E0B4005CC201 /* MoveFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveFactory.swift; sourceTree = "<group>"; };
+		B52E5E6E24B2E1D2005CC201 /* MovementTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovementTests.swift; sourceTree = "<group>"; };
+		B5541AC824AFF78A00372FA3 /* Roll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roll.swift; sourceTree = "<group>"; };
+		B5541ACB24AFF7ED00372FA3 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		B5541ACD24AFF80F00372FA3 /* Move.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Move.swift; sourceTree = "<group>"; };
+		B55E3B3424AD77A10083DC02 /* RollTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollTests.swift; sourceTree = "<group>"; };
 		B5709A1B24A4500C006DCE2F /* Parcheesi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parcheesi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5709A1E24A4500C006DCE2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5709A2024A4500C006DCE2F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,11 +65,18 @@
 		B5709A2A24A4500F006DCE2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5709A2C24A4500F006DCE2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5709A3124A45010006DCE2F /* ParcheesiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParcheesiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5709A3524A45010006DCE2F /* ParcheesiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParcheesiTests.swift; sourceTree = "<group>"; };
 		B5709A3724A45010006DCE2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5709A3C24A45010006DCE2F /* ParcheesiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParcheesiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5709A4024A45010006DCE2F /* ParcheesiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParcheesiUITests.swift; sourceTree = "<group>"; };
 		B5709A4224A45010006DCE2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5709A5024A4503A006DCE2F /* BoardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
+		B5709A5224A45211006DCE2F /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		B5709A5424A45222006DCE2F /* Piece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Piece.swift; sourceTree = "<group>"; };
+		B5709A5A24A45270006DCE2F /* Space.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Space.swift; sourceTree = "<group>"; };
+		B5709A5C24A452A9006DCE2F /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		B5709A6024A4536E006DCE2F /* TrackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackTests.swift; sourceTree = "<group>"; };
+		B5774A0624A5AF74005C6C89 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		B5774A0A24A5B5A0005C6C89 /* GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +104,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B5541AC724AFF77C00372FA3 /* Game Models */ = {
+			isa = PBXGroup;
+			children = (
+				B5709A5A24A45270006DCE2F /* Space.swift */,
+				B5774A0624A5AF74005C6C89 /* Game.swift */,
+				B5709A5C24A452A9006DCE2F /* Track.swift */,
+				B5541AC824AFF78A00372FA3 /* Roll.swift */,
+				B5709A5424A45222006DCE2F /* Piece.swift */,
+				B5709A5224A45211006DCE2F /* Player.swift */,
+				B5541ACB24AFF7ED00372FA3 /* Location.swift */,
+				B5541ACD24AFF80F00372FA3 /* Move.swift */,
+				B52E5E6A24B2E0A3005CC201 /* PieceFactory.swift */,
+				B52E5E6C24B2E0B4005CC201 /* MoveFactory.swift */,
+			);
+			path = "Game Models";
+			sourceTree = "<group>";
+		};
+		B5541ACA24AFF7B900372FA3 /* Game Views */ = {
+			isa = PBXGroup;
+			children = (
+				B5709A5024A4503A006DCE2F /* BoardView.swift */,
+				B5709A2224A4500C006DCE2F /* ContentView.swift */,
+			);
+			path = "Game Views";
+			sourceTree = "<group>";
+		};
 		B5709A1224A4500C006DCE2F = {
 			isa = PBXGroup;
 			children = (
@@ -99,12 +153,13 @@
 		B5709A1D24A4500C006DCE2F /* Parcheesi */ = {
 			isa = PBXGroup;
 			children = (
+				B5541ACA24AFF7B900372FA3 /* Game Views */,
+				B5541AC724AFF77C00372FA3 /* Game Models */,
+				B5709A2C24A4500F006DCE2F /* Info.plist */,
 				B5709A1E24A4500C006DCE2F /* AppDelegate.swift */,
 				B5709A2024A4500C006DCE2F /* SceneDelegate.swift */,
-				B5709A2224A4500C006DCE2F /* ContentView.swift */,
 				B5709A2424A4500F006DCE2F /* Assets.xcassets */,
 				B5709A2924A4500F006DCE2F /* LaunchScreen.storyboard */,
-				B5709A2C24A4500F006DCE2F /* Info.plist */,
 				B5709A2624A4500F006DCE2F /* Preview Content */,
 			);
 			path = Parcheesi;
@@ -121,8 +176,11 @@
 		B5709A3424A45010006DCE2F /* ParcheesiTests */ = {
 			isa = PBXGroup;
 			children = (
-				B5709A3524A45010006DCE2F /* ParcheesiTests.swift */,
 				B5709A3724A45010006DCE2F /* Info.plist */,
+				B5709A6024A4536E006DCE2F /* TrackTests.swift */,
+				B5774A0A24A5B5A0005C6C89 /* GameTests.swift */,
+				B55E3B3424AD77A10083DC02 /* RollTests.swift */,
+				B52E5E6E24B2E1D2005CC201 /* MovementTests.swift */,
 			);
 			path = ParcheesiTests;
 			sourceTree = "<group>";
@@ -266,9 +324,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5709A5D24A452A9006DCE2F /* Track.swift in Sources */,
+				B5541ACC24AFF7ED00372FA3 /* Location.swift in Sources */,
 				B5709A1F24A4500C006DCE2F /* AppDelegate.swift in Sources */,
+				B5709A5124A4503A006DCE2F /* BoardView.swift in Sources */,
+				B5541ACE24AFF80F00372FA3 /* Move.swift in Sources */,
+				B5709A5524A45222006DCE2F /* Piece.swift in Sources */,
 				B5709A2124A4500C006DCE2F /* SceneDelegate.swift in Sources */,
+				B5774A0724A5AF74005C6C89 /* Game.swift in Sources */,
+				B5709A5324A45211006DCE2F /* Player.swift in Sources */,
+				B5541AC924AFF78A00372FA3 /* Roll.swift in Sources */,
 				B5709A2324A4500C006DCE2F /* ContentView.swift in Sources */,
+				B52E5E6D24B2E0B4005CC201 /* MoveFactory.swift in Sources */,
+				B5709A5B24A45270006DCE2F /* Space.swift in Sources */,
+				B52E5E6B24B2E0A3005CC201 /* PieceFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +345,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5709A3624A45010006DCE2F /* ParcheesiTests.swift in Sources */,
+				B52E5E6F24B2E1D2005CC201 /* MovementTests.swift in Sources */,
+				B5709A6124A4536E006DCE2F /* TrackTests.swift in Sources */,
+				B5774A0B24A5B5A0005C6C89 /* GameTests.swift in Sources */,
+				B55E3B3524AD77A10083DC02 /* RollTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +438,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +493,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -481,7 +553,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F936WM9Q35;
 				INFOPLIST_FILE = ParcheesiTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -503,7 +575,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F936WM9Q35;
 				INFOPLIST_FILE = ParcheesiTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
