@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import GameplayKit
 
 public struct Roll {
     var numbers: [Int]
@@ -22,8 +23,11 @@ public struct Roll {
 
 extension Roll {
     public init() {
-        let numbers = Array(repeating: Int.random(in: 1...6), count: 2)
-        self.init(numbers: numbers)
+        let die = GKRandomDistribution.d6()
+        self.init(numbers: [
+            die.nextInt(),
+            die.nextInt()
+        ])
     }
 }
 
