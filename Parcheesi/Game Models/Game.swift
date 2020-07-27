@@ -21,6 +21,9 @@ class Game {
     var entryPoints: [Player: Int]
     var offRamps: [Player: Int]
     var track: Track
+    
+    //MARK: state variables
+    var currentPlayerIndex: Int = -1
         
     //MARK: root initializer
     init(players: [Player], pieces: [Piece], entryPoints: [Player: Int], offRamps: [Player: Int]) {
@@ -99,16 +102,25 @@ class Game {
         return findDuplicates(arr: spaces)
     }
     
-    private func findDuplicates<T: Hashable>(arr: Array<T>) -> [T] {
-        var set = Set<T>()
-        var dupes = [T]()
-        for i in arr {
-            if set.insert(i).inserted == false && dupes.contains(i) == false {
-                dupes.append(i)
-            }
+    func nextPlayer() -> Player {
+        if currentPlayerIndex == -1 || currentPlayerIndex == players.endIndex {
+            currentPlayerIndex = 0
         }
-        return dupes
+        print("current player", currentPlayerIndex)
+
+        let player = players[currentPlayerIndex]
+        currentPlayerIndex += 1
+        return player
     }
 }
 
-
+fileprivate func findDuplicates<T: Hashable>(arr: Array<T>) -> [T] {
+    var set = Set<T>()
+    var dupes = [T]()
+    for i in arr {
+        if set.insert(i).inserted == false && dupes.contains(i) == false {
+            dupes.append(i)
+        }
+    }
+    return dupes
+}

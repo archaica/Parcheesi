@@ -13,6 +13,8 @@
 		B5541AC924AFF78A00372FA3 /* Roll.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5541AC824AFF78A00372FA3 /* Roll.swift */; };
 		B5541ACC24AFF7ED00372FA3 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5541ACB24AFF7ED00372FA3 /* Location.swift */; };
 		B5541ACE24AFF80F00372FA3 /* Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5541ACD24AFF80F00372FA3 /* Move.swift */; };
+		B557B30E24CE631200BCECD2 /* Turn.swift in Sources */ = {isa = PBXBuildFile; fileRef = B557B30D24CE631200BCECD2 /* Turn.swift */; };
+		B557B31124CE6D9B00BCECD2 /* TurnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B557B31024CE6D9B00BCECD2 /* TurnTests.swift */; };
 		B55E3B3524AD77A10083DC02 /* RollTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55E3B3424AD77A10083DC02 /* RollTests.swift */; };
 		B5709A1F24A4500C006DCE2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5709A1E24A4500C006DCE2F /* AppDelegate.swift */; };
 		B5709A2124A4500C006DCE2F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5709A2024A4500C006DCE2F /* SceneDelegate.swift */; };
@@ -55,6 +57,8 @@
 		B5541AC824AFF78A00372FA3 /* Roll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roll.swift; sourceTree = "<group>"; };
 		B5541ACB24AFF7ED00372FA3 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		B5541ACD24AFF80F00372FA3 /* Move.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Move.swift; sourceTree = "<group>"; };
+		B557B30D24CE631200BCECD2 /* Turn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turn.swift; sourceTree = "<group>"; };
+		B557B31024CE6D9B00BCECD2 /* TurnTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurnTests.swift; sourceTree = "<group>"; };
 		B55E3B3424AD77A10083DC02 /* RollTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollTests.swift; sourceTree = "<group>"; };
 		B5709A1B24A4500C006DCE2F /* Parcheesi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parcheesi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5709A1E24A4500C006DCE2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -117,6 +121,7 @@
 				B5541ACD24AFF80F00372FA3 /* Move.swift */,
 				B52E5E6A24B2E0A3005CC201 /* PieceFactory.swift */,
 				B52E5E6C24B2E0B4005CC201 /* MoveFactory.swift */,
+				B557B30D24CE631200BCECD2 /* Turn.swift */,
 			);
 			path = "Game Models";
 			sourceTree = "<group>";
@@ -181,6 +186,7 @@
 				B5774A0A24A5B5A0005C6C89 /* GameTests.swift */,
 				B55E3B3424AD77A10083DC02 /* RollTests.swift */,
 				B52E5E6E24B2E1D2005CC201 /* MovementTests.swift */,
+				B557B31024CE6D9B00BCECD2 /* TurnTests.swift */,
 			);
 			path = ParcheesiTests;
 			sourceTree = "<group>";
@@ -334,6 +340,7 @@
 				B5774A0724A5AF74005C6C89 /* Game.swift in Sources */,
 				B5709A5324A45211006DCE2F /* Player.swift in Sources */,
 				B5541AC924AFF78A00372FA3 /* Roll.swift in Sources */,
+				B557B30E24CE631200BCECD2 /* Turn.swift in Sources */,
 				B5709A2324A4500C006DCE2F /* ContentView.swift in Sources */,
 				B52E5E6D24B2E0B4005CC201 /* MoveFactory.swift in Sources */,
 				B5709A5B24A45270006DCE2F /* Space.swift in Sources */,
@@ -349,6 +356,7 @@
 				B5709A6124A4536E006DCE2F /* TrackTests.swift in Sources */,
 				B5774A0B24A5B5A0005C6C89 /* GameTests.swift in Sources */,
 				B55E3B3524AD77A10083DC02 /* RollTests.swift in Sources */,
+				B557B31124CE6D9B00BCECD2 /* TurnTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,6 +521,7 @@
 				DEVELOPMENT_TEAM = F936WM9Q35;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Parcheesi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -534,6 +543,7 @@
 				DEVELOPMENT_TEAM = F936WM9Q35;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Parcheesi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

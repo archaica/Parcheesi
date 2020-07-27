@@ -82,4 +82,18 @@ class GameTests: XCTestCase {
         XCTAssertEqual(blockades.count, 1)
         XCTAssertEqual(blockades[0], 30)
     }
+    
+    func testNextPlayer() {
+        let p1 = Player(name: "Ben")
+        let p2 = Player(name: "Kazia")
+        let p3 = Player(name: "Luke")
+        let p4 = Player(name: "Riley")
+        let game = Game(players: [p1, p2, p3, p4])
+        
+        XCTAssertEqual(game.nextPlayer(), p1)
+        XCTAssertEqual(game.nextPlayer(), p2)
+        XCTAssertEqual(game.nextPlayer(), p3)
+        XCTAssertEqual(game.nextPlayer(), p4)
+        XCTAssertEqual(game.nextPlayer(), p1)
+    }
 }
